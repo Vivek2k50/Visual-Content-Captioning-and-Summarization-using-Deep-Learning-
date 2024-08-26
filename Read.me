@@ -1,0 +1,31 @@
+Visual Content Captioning and Summarization using Deep Learning
+This repository contains the code and resources for the project on Visual Content Captioning and Summarization using Deep Learning. The project focuses on developing a fusion model that combines Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) architectures to achieve high-performance image captioning and video summarization.
+
+Overview
+In this project, we have developed a deep learning-based system capable of generating captions for images and summarizing videos. The system leverages the strengths of CNNs for visual feature extraction and LSTMs for sequence generation. Our approach has been evaluated with a BLEU score of 0.532, indicating strong performance in image captioning tasks.
+
+Key Features
+Image Captioning: A fusion model combining CNN and LSTM architectures that generates descriptive captions for images.
+Video Summarization: An extended version of the model that uses the OpenAI API to generate instance-specific summaries from video content.
+Voice Generation: Integration of voice synthesis for generated captions to enhance user experience.
+Deployment: The model is deployed using Hugging Face and Streamlit, making it accessible via a web interface.
+Model Architecture
+CNN: Used for extracting high-level visual features from images.
+LSTM: Utilized for generating coherent sequences of text (captions) based on the extracted features.
+Fusion Model: Combines CNN and LSTM outputs to generate high-quality captions.
+OpenAI API: Employed for enhancing the contextual understanding in video summarization. 
+
+Usage
+Image Captioning: Upload an image, and the model will generate a descriptive caption.
+Video Summarization: Upload a video, and the model will create a concise summary using instance-specific understanding.
+Voice Generation: The generated captions can be converted into audio using integrated voice synthesis.
+Deployment
+The model is deployed on Hugging Face and integrated with Streamlit for easy access via a web interface. The deployed app allows users to interact with the model and experience the captioning and summarization features firsthand.
+
+Results
+Image Captioning: Achieved a BLEU score of 0.532.
+Video Summarization: Improved contextual understanding through the use of the OpenAI API.
+Future Work
+Improving the model's ability to handle complex video content.
+Enhancing voice synthesis quality.
+Exploring additional deep learning architectures for better performance.
